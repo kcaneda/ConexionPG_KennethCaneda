@@ -9,7 +9,7 @@ import { ProductoService } from '../../services/producto-service';
   styleUrl: './productos.component.css',
   templateUrl: './productos.component.html',
 })
-export class Productos {
+export class ProductosComponent {
   productos:Producto[]=[]
 
   constructor(private productoService:ProductoService){}
